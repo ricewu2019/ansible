@@ -50,6 +50,7 @@ EXAMPLES = """
     password: password
     backup: yes
     backup_path: /tmp/forti_backup/
+    backup_filename: forti_20190202
     filter: "firewall address"
 
 - name: Update configuration from file
